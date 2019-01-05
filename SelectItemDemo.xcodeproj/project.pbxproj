@@ -13,6 +13,7 @@
 		4985F67A21E09156004A966D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4985F67921E09156004A966D /* Assets.xcassets */; };
 		4985F67D21E09156004A966D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4985F67B21E09156004A966D /* LaunchScreen.storyboard */; };
 		4985F68821E09156004A966D /* SelectItemDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4985F68721E09156004A966D /* SelectItemDemoTests.swift */; };
+		4985F69321E095E5004A966D /* THPickViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4985F69221E095E5004A966D /* THPickViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4985F68321E09156004A966D /* SelectItemDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectItemDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4985F68721E09156004A966D /* SelectItemDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectItemDemoTests.swift; sourceTree = "<group>"; };
 		4985F68921E09156004A966D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4985F69221E095E5004A966D /* THPickViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPickViewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				4985F67221E09155004A966D /* AppDelegate.swift */,
 				4985F67421E09155004A966D /* ViewController.swift */,
+				4985F69221E095E5004A966D /* THPickViewer.swift */,
 				4985F67621E09155004A966D /* Main.storyboard */,
 				4985F67921E09156004A966D /* Assets.xcassets */,
 				4985F67B21E09156004A966D /* LaunchScreen.storyboard */,
@@ -199,6 +202,7 @@
 			files = (
 				4985F67521E09155004A966D /* ViewController.swift in Sources */,
 				4985F67321E09155004A966D /* AppDelegate.swift in Sources */,
+				4985F69321E095E5004A966D /* THPickViewer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +367,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68G9D2GE69;
 				INFOPLIST_FILE = SelectItemDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,6 +386,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68G9D2GE69;
 				INFOPLIST_FILE = SelectItemDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
